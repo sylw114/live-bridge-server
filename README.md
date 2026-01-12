@@ -2,7 +2,7 @@
 
 LiveBridge Server 是一个转发服务，可以以sse的形式轻量的转发数据。当然不是弹幕数据也行。
 同时有proxy功能，以便图片的获取（不然阿b因为跨域安全问题给你拦截了）
-b站弹幕数据获取：[injector](https://github.com/sylw114/live-bridge-injector)
+b站弹幕数据获取：[injector](https://github.com/sylw114/live-bridge-injector) 以及展示前端：[web](https://github.com/sylw114/live-bridge-web)
 
 ## 功能特性
 
