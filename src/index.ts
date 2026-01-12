@@ -19,7 +19,7 @@ app.use(cors())
 app.use(express.json())
 
 // 静态文件服务 - 提供 /web 路由访问前端资源
-app.use('/web', express.static(path.join(__dirname, '../../live-bridge-web')))
+app.use('/web', express.static(path.join(__dirname, '../../live-bridge-web/dist')))
 
 // 添加代理API端点，用于访问限制origin头的内容
 app.get('/proxy', async (req, res) => {
